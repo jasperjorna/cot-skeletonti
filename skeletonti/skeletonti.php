@@ -23,9 +23,9 @@ $R['input_password'] = '<input type="password" class="form-control" name="{$name
 $R['input_textarea'] = '<textarea class="form-control" name="{$name}" rows="{$rows}" cols="{$cols}" value="{$value}"></textarea>';
 $R['input_select']   = '<select name="{$name}" class="form-control" {$attrs}>{$options}</select>';
 
-$R['input_select_rpagebegin'] = '<select name="{$name}" class="form-control" style="display: inline;">{$options}</select>{$error}';
-$R['input_select_rpageexpire'] = '<select name="{$name}" class="form-control" style="display: inline;">{$options}</select>{$error}';
-$R['input_select_rpagefile'] = '<select name="{$name}" class="form-control">{$options}</select>';
+$R['input_select_rpagebegin']  = '<select name="{$name}" class="form-control">{$options}</select>{$error}';
+$R['input_select_rpageexpire'] = '<select name="{$name}" class="form-control">{$options}</select>{$error}';
+$R['input_select_rpagefile']   = '<select name="{$name}" class="form-control">{$options}</select>';
 
 // Pagination
 $R['link_pagenav_current'] = '<li class="active"><a href="{$url}"{$event}{$rel}>{$num}</a></li>';
