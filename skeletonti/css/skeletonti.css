@@ -1,0 +1,9 @@
+/*
+ * Skeletonti stylesheet
+ */
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.middle { vertical-align: middle!important; }
