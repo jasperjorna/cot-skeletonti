@@ -14,7 +14,7 @@ defined('COT_CODE') or die('Wrong URL.');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/bootstrap.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/bootstrap-theme.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/overrides.css');
-cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/modalbox.css');
+cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/modal.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/skeletonti.css');
 
 // JavaScript
