@@ -7,7 +7,7 @@ A very basic development theme for [Cotonti](http://www.cotonti.com/) Siena, bui
 
 ## Tips ##
 Displaying all available TPL tags is a very handy feature when building a theme.
-Useful information on that and other relevant topics is available at [http://www.cotonti.com/docs/ext/themes/](http://www.cotonti.com/docs/ext/themes)
+Useful information on that and other relevant topics is available at [http://www.cotonti.com/docs/ext/themes](http://www.cotonti.com/docs/ext/themes/)
 
 More information on how to use Bootstrap can be found here: [http://getbootstrap.com](http://getbootstrap.com)
 
