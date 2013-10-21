@@ -1,7 +1,7 @@
 <?php
 /* ====================
 [BEGIN_COT_THEME]
-Name=Skeletonti v1.0
+Name=Skeletonti v1.0.1
 Schemes=skeletonti:Default
 [END_COT_THEME]
 ==================== */
@@ -20,7 +20,7 @@ defined('COT_CODE') or die('Wrong URL');
 // Forms
 $R['input_text']     = '<input type="text" class="form-control" name="{$name}" value="{$value}" {$attrs} />';
 $R['input_password'] = '<input type="password" class="form-control" name="{$name}" value="{$value}" {$attrs} />';
-$R['input_textarea'] = '<textarea class="form-control" name="{$name}" rows="{$rows}" cols="{$cols}" value="{$value}"></textarea>';
+$R['input_textarea'] = '<textarea class="form-control" name="{$name}" rows="{$rows}" cols="{$cols}">{$value}</textarea>';
 $R['input_select']   = '<select name="{$name}" class="form-control" {$attrs}>{$options}</select>';
 
 $R['input_select_rpagebegin']  = '<select name="{$name}" class="form-control">{$options}</select>{$error}';
