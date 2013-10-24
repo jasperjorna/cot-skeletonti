@@ -8,8 +8,8 @@
             <p>{PLUGIN_SEARCH_TEXT}</p>
             <p><input type="submit" class="btn btn-primary" value="{PHP.L.plu_search_key}" /></p>
             <a href="{PHP|cot_url('plug','e=search')}" class="btn btn-default <!-- IF !{PHP.tab} --> active<!-- ENDIF -->">{PHP.L.plu_tabs_all}</a>
-            <a href="{PHP|cot_url('plug','e=search&amp;tab=frm')}" class="btn btn-default <!-- IF {PHP.tab} == 'frm' --> active<!-- ENDIF -->">{PHP.L.Forums}</a>
-            <a href="{PHP|cot_url('plug','e=search&amp;tab=pag')}" class="btn btn-default <!-- IF {PHP.tab} == 'pag' --> active<!-- ENDIF -->">{PHP.L.Pages}</a>
+            <!-- IF {PHP.cot_plugins_active.forum} --><a href="{PHP|cot_url('plug','e=search&amp;tab=frm')}" class="btn btn-default <!-- IF {PHP.tab} == 'frm' --> active<!-- ENDIF -->">{PHP.L.Forums}</a><!-- ENDIF -->
+            <!-- IF {PHP.cot_plugins_active.page} --><a href="{PHP|cot_url('plug','e=search&amp;tab=pag')}" class="btn btn-default <!-- IF {PHP.tab} == 'pag' --> active<!-- ENDIF -->">{PHP.L.Pages}</a><!-- ENDIF -->
             <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#search-filters">
               {PHP.L.Filter} <b class="caret"></b></i>
             </button>
