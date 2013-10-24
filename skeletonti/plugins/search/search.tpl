@@ -63,8 +63,8 @@
             <!-- END: RESULTS -->
 
             <ul class="pagination">{PLUGIN_PAGEPREV}{PLUGIN_PAGENAV}{PLUGIN_PAGENEXT}</ul>
-
         </div>
+<!-- IF {PHP.cfg.plugin.search.extrafilters} -->
         <div class="col-lg-6">
           <h3>{PHP.L.Filter}</h3>
           <!-- BEGIN: PAGES_OPTIONS -->
@@ -113,6 +113,8 @@
             </div>
           </div>
           <!-- END: FORUMS_OPTIONS -->
+       </div> <!-- ./col-lg-6 filters -->
+<!-- ENDIF -->
           </form>
         </div>
       </div>
