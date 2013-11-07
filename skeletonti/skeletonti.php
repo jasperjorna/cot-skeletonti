@@ -1,7 +1,7 @@
 <?php
 /* ====================
 [BEGIN_COT_THEME]
-Name=Skeletonti v1.0.1
+Name=Skeletonti v1.0.2
 Schemes=skeletonti:Default
 [END_COT_THEME]
 ==================== */
@@ -35,3 +35,11 @@ $R['link_pagenav_last']    = '<li><a href="{$url}"{$event}{$rel}>'.$L['pagenav_l
 $R['link_pagenav_main']    = '<li><a href="{$url}"{$event}{$rel}>{$num}</a></li>';
 $R['link_pagenav_next']    = '<li><a href="{$url}"{$event}{$rel}>'.$L['pagenav_next'].'</a></li>';
 $R['link_pagenav_prev']    = '<li><a href="{$url}"{$event}{$rel}>'.$L['pagenav_prev'].'</a></li>';
+
+// Group list layout
+$R['users_code_grplist_begin'] = '<ul class="list-group form-inline unstyled">';
+$R['users_code_grplist_end'] = '</ul>';
+$R['users_code_grplist_item'] = '<li class="list-group-item">{$item}</li>';
+$R['users_code_grplist_item_main'] = '<li class="list-group-item alert-info">{$item}</li>';
+$R['users_input_grplist_checkbox'] = '<div class="form-group"><input type="checkbox" title="'.$L['Groupsmembership'].'" class="checkbox" name="{$name}" value="1"{$checked}{$attrs} />&nbsp;</div>';
+$R['users_input_grplist_radio'] = '<div class="form-group"><input type="radio" title="'.$L['Maingroup'].'" class="radio" name="{$name}" value="{$value}"{$checked}{$attrs} />&nbsp;</div>';
