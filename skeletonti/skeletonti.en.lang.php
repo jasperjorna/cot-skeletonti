@@ -36,8 +36,8 @@ $L['RegisterHint']         = 'Fill out the required fields and we\'ll send you a
 $L['AlreadyHaveAnAccount'] = 'Already have an account?';
 $L['Forgotpassword']       = 'Forgot password';
 
-$L['pm_starred'] = 'Starred';
-$L['pm_unread'] = 'Unread';
+$L['pm_starred']           = 'Starred';
+$L['pm_unread']            = 'Unread';
 $L['pm_deletefromstarred'] = 'Delete from Starred';
-$L['pm_putinstarred'] = 'Add to Starred';
-$L['pm_read'] = 'Read';
+$L['pm_putinstarred']      = 'Add to Starred';
+$L['pm_read']              = 'Read';

@@ -72,10 +72,10 @@ $R['pfs_link_addthumb'] = '<a href="javascript:addthumb(\'{$pfs_file}\',\'{$c2}\
 $R['pfs_link_addfile']  = '<a href="javascript:addfile(\'{$pfs_file}\',\'{$c2}\',\'{$pfs_desc}\')" class="btn btn-sm btn-default"><i class="glyphicon glyphicon-file"></i></a>';
 
 // PM module
-$R['pm_icon'] = '<span class="glyphicon glyphicon-envelope" title="'.$L['pm_read'].'"></span>';
-$R['pm_icon_new'] = '<span class="text-warning glyphicon glyphicon-envelope" title="'.$L['pm_unread'].'"></span>';
+$R['pm_icon']          = '<span class="glyphicon glyphicon-envelope" title="'.$L['pm_read'].'"></span>';
+$R['pm_icon_new']      = '<span class="text-warning glyphicon glyphicon-envelope" title="'.$L['pm_unread'].'"></span>';
 $R['pm_icon_trashcan'] = '<span class="glyphicon glyphicon-trash" title="'.$L['Delete'].'"></span>';
-$R['pm_icon_edit'] = '<span class="glyphicon glyphicon-edit" title="'.$L['Edit'].'"></span>';
-$R['pm_icon_star'] = '<a href="{$link}" title="'.$L['pm_putinstarred'].'"><span class="glyphicon glyphicon-star-empty" title="'.$L['pm_putinstarred'].'"></span></a>';
-$R['pm_icon_unstar'] = '<a href="{$link}" title="'.$L['pm_deletefromstarred'].'"><span class="text-success glyphicon glyphicon-star" title="'.$L['pm_deletefromstarred'].'"></span></a>';
+$R['pm_icon_edit']     = '<span class="glyphicon glyphicon-edit" title="'.$L['Edit'].'"></span>';
+$R['pm_icon_star']     = '<a href="{$link}" title="'.$L['pm_putinstarred'].'"><span class="glyphicon glyphicon-star-empty" title="'.$L['pm_putinstarred'].'"></span></a>';
+$R['pm_icon_unstar']   = '<a href="{$link}" title="'.$L['pm_deletefromstarred'].'"><span class="text-success glyphicon glyphicon-star" title="'.$L['pm_deletefromstarred'].'"></span></a>';
 
