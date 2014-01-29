@@ -3,18 +3,18 @@
       <div id="ajaxBlock">
       <!-- END: BEFORE_AJAX -->
         <div class="page-header">
-          <h1>{PM_PAGETITLE}</h1>
+          <h3>{PM_PAGETITLE}</h3>
         </div>
 
         <div class="btn-group">
-          <a href="{PM_INBOX_URL}" class="btn btn-sm btn-default<!-- IF {PHP.f} == 'inbox' --> active<!-- ENDIF -->">
-            {PHP.L.pm_inbox}
+          <a href="{PM_INBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'inbox' --> active<!-- ENDIF -->">
+            <span class="badge">{PM_INBOX_COUNT}</span>&nbsp;{PHP.L.pm_inbox}
           </a>
-          <a href="{PM_SENTBOX_URL}" class="btn btn-sm btn-default<!-- IF {PHP.f} == 'sentbox' --> active<!-- ENDIF -->">
-            {PHP.L.pm_sentbox}
+          <a href="{PM_SENTBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'sentbox' --> active<!-- ENDIF -->">
+            <span class="badge">{PM_SENTBOX_COUNT}</span>&nbsp;{PHP.L.pm_sentbox}
           </a>
-          <a href="{PM_SENDNEWPM_URL}" class="btn btn-sm btn-default<!-- IF {PHP.m} == 'send' --> active<!-- ENDIF -->">
-            {PHP.L.Sendnew}
+          <a href="{PM_SENDNEWPM_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.m} == 'send' --> active<!-- ENDIF -->">
+            {PHP.L.pm_sendnew}
           </a>
         </div>
 
@@ -40,9 +40,7 @@
               </th>
               <th>{PHP.L.Status}</th>
               <th>
-                <div class="pm-star pm-star-readonly">
-                  <a href="#" title ="{PHP.L.pm_starred}"> &nbsp; </a>
-                </div>
+                <a href="{PM_FILTER_STARRED_URL}" title ="{PHP.L.pm_starred}" class="text-center" ><span class="text-success glyphicon glyphicon-star"></span></a>
               </th>
               <th>{PHP.L.Subject}</th>
               <th>{PM_SENT_TYPE}</th>
@@ -63,10 +61,10 @@
                 <td>{PM_ROW_DATE}</td>
                 <td>
                   <div class="btn-group">
+                    <a class="btn btn-sm btn-danger" href="{PM_ROW_DELETE_CONFIRM_URL}" title="{PHP.L.Delete}"><span class="glyphicon glyphicon-remove-circle"></span></a>
                     <!-- IF {PM_ROW_EDIT_URL} -->
-                    <a class="btn btn-sm btn-default" href="{PM_ROW_EDIT_URL}"><span class="glyphicon glyphicon-edit"></span> {PHP.L.Edit}</a>
+                    <a class="btn btn-sm btn-default" href="{PM_ROW_EDIT_URL}" title="{PHP.L.Edit}"><span class="glyphicon glyphicon-edit"></span> {PHP.L.Edit}</a>
                     <!-- ENDIF -->
-                    <a class="btn btn-sm btn-danger" href="{PM_ROW_DELETE_CONFIRM_URL}"><span class="glyphicon glyphicon-remove-circle"></span></a>
                   </div>
                 </td>
               </tr>
