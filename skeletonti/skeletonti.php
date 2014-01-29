@@ -78,4 +78,3 @@ $R['pm_icon_trashcan'] = '<span class="glyphicon glyphicon-trash" title="'.$L['D
 $R['pm_icon_edit']     = '<span class="glyphicon glyphicon-edit" title="'.$L['Edit'].'"></span>';
 $R['pm_icon_star']     = '<a href="{$link}" title="'.$L['pm_putinstarred'].'"><span class="glyphicon glyphicon-star-empty" title="'.$L['pm_putinstarred'].'"></span></a>';
 $R['pm_icon_unstar']   = '<a href="{$link}" title="'.$L['pm_deletefromstarred'].'"><span class="text-success glyphicon glyphicon-star" title="'.$L['pm_deletefromstarred'].'"></span></a>';
-

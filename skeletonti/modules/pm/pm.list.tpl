@@ -8,10 +8,10 @@
 
         <div class="btn-group">
           <a href="{PM_INBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'inbox' --> active<!-- ENDIF -->">
-            <span class="badge">{PM_INBOX_COUNT}</span>&nbsp;{PHP.L.pm_inbox}
+            {PHP.L.pm_inbox}&nbsp; <span class="badge">{PM_INBOX_COUNT}</span>
           </a>
           <a href="{PM_SENTBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'sentbox' --> active<!-- ENDIF -->">
-            <span class="badge">{PM_SENTBOX_COUNT}</span>&nbsp;{PHP.L.pm_sentbox}
+            {PHP.L.pm_sentbox}&nbsp; <span class="badge">{PM_SENTBOX_COUNT}</span>
           </a>
           <a href="{PM_SENDNEWPM_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.m} == 'send' --> active<!-- ENDIF -->">
             {PHP.L.pm_sendnew}
