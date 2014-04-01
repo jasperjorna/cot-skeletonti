@@ -52,7 +52,7 @@
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" name="fromstate" value="3"> {PHP.L.pm_notmovetosentbox}
+              <input name="fromstate" type="checkbox" value="3"> {PHP.L.pm_notmovetosentbox}
             </label>
           </div>
           <center><button type="submit" class="btn btn-primary">{PHP.L.Reply}</button></center>

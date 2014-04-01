@@ -54,7 +54,7 @@
           </div>
           <div class="col-md-2">
             <div class="form-group">
-              <button type="submit" class="btn btn-primary">{PHP.L.Submit}</button>
+              <button class="btn btn-primary" type="submit">{PHP.L.Submit}</button>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
       <!-- BEGIN: POLL_VIEW -->
       <div id="poll_{POLL_ID}">
-        <form action="{POLL_FORM_URL}" method="post" id="poll_form_{POLL_ID}" class="ajax post-poll_{POLL_ID};index.php;e=polls&amp;mode=ajax" role="form">
-          <input type="hidden" name="poll_id" value="{POLL_ID}">
+        <form class="ajax post-poll_{POLL_ID};index.php;e=polls&amp;mode=ajax" id="poll_form_{POLL_ID}" action="{POLL_FORM_URL}" method="post" role="form">
+          <input name="poll_id" type="hidden" value="{POLL_ID}">
           <table class="table table-borderless">
             <!-- BEGIN: POLLTABLE -->
             <tr>
@@ -18,7 +18,7 @@
             <!-- END: POLLTABLE -->
             <tr>
               <td colspan="4">
-                <button type="submit" title="{PHP.L.polls_Vote}" class="btn btn-primary">{PHP.L.polls_Vote}</button>
+                <button class="btn btn-primary" title="{PHP.L.polls_Vote}" type="submit">{PHP.L.polls_Vote}</button>
               </td>
             </tr>
           </table>

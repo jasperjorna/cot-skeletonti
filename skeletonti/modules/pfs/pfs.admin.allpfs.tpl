@@ -11,7 +11,7 @@
             <td>{ADMIN_ALLPFS_ROW_USER}</td>
             <td>{ADMIN_ALLPFS_ROW_COUNT}</td>
             <td>
-              <a href="{ADMIN_ALLPFS_ROW_URL}" class="btn btn-sm btn-default"><i class="glyphicon glyphicon-edit"></i> {PHP.L.Edit}</a>
+              <a class="btn btn-sm btn-default" href="{ADMIN_ALLPFS_ROW_URL}"><i class="fa fa-pencil-square-o"></i> {PHP.L.Edit}</a>
             </td>
           </tr>
           <!-- END: ALLPFS_ROW -->

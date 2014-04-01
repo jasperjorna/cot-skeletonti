@@ -24,12 +24,12 @@
     <header class="navbar navbar-default navbar-static-top" role="banner">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{PHP.cfg.mainurl}" title="{PHP.cfg.maintitle} {PHP.cfg.separator} {PHP.cfg.subtitle}">{PHP.cfg.maintitle}</a>
+          <a class="navbar-brand" title="{PHP.cfg.maintitle} {PHP.cfg.separator} {PHP.cfg.subtitle}" href="{PHP.cfg.mainurl}">{PHP.cfg.maintitle}</a>
         </div>
         <nav class="navbar-collapse collapse" role="navigation">
           <ul class="nav navbar-nav">
@@ -51,7 +51,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <!-- IF {PHP.usr.id} > 0 -->{HEADER_USER_NAME}<!-- ELSE -->{PHP.L.Login}<!-- ENDIF --> <b class="caret"></b>
               </a>
               <!-- BEGIN: USER -->
@@ -75,8 +75,8 @@
                     <div class="form-group">
                       <input class="form-control" type="password" name="rpassword" maxlength="32" placeholder="{PHP.L.Password}">
                     </div>
-                    <input type="hidden" name="rremember" value="1">
-                    <button type="submit" class="btn btn-primary">{PHP.L.Login}</button>
+                    <input name="rremember" type="hidden" value="1">
+                    <button class="btn btn-primary" type="submit">{PHP.L.Login}</button>
                   </form>
                 </li>
                 <li><a href="{PHP|cot_url('users', 'm=register')}">{PHP.L.Register}</a></li>

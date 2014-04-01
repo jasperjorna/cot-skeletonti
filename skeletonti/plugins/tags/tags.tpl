@@ -7,19 +7,19 @@
         <div class="row">
           <div class="col-md-4">
             <div class="form-group">
-              <input type="text" name="t" value="{TAGS_QUERY}" class="form-control">
+              <input class="form-control" type="text" name="t" value="{TAGS_QUERY}">
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-group">
-              <select name="order" class="form-control">
+              <select class="form-control" name="order">
                 <option value="">{PHP.L.tags_Orderby}</option>
                 <option value="">--</option>
                 {TAGS_ORDER}
               </select>
             </div>
           </div>
-          <input type="submit" class="btn btn-primary" value="{PHP.L.Search}">
+          <input class="btn btn-primary" type="submit" value="{PHP.L.Search}">
         </div>
       </form>
 

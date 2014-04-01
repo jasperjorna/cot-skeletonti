@@ -14,33 +14,33 @@
       <!-- END: POLLS_VIEW -->
 
       <!-- BEGIN: FORUMS_POSTS_ADMIN -->
-      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#admin-forum-options">
+      <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#admin-forum-options">
         {PHP.L.Moderation} <b class="caret"></b>
       </button>
-      <div id="admin-forum-options" class="collapse">
+      <div class="collapse" id="admin-forum-options">
         <form id="movetopic" action="{FORUMS_POSTS_MOVE_URL}" method="post" role="form">
           <ul class="list-inline">
             <h5>{PHP.L.forums_topicoptions}:</h5>
             <li>
-              <a href="{FORUMS_POSTS_BUMP_URL}" title="{PHP.L.forums_explainbump}" class="btn btn-default btn-sm">{PHP.L.forums_bump}</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explainbump}" href="{FORUMS_POSTS_BUMP_URL}">{PHP.L.forums_bump}</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_LOCK_URL}" title="{PHP.L.forums_explainlock}" class="btn btn-default btn-sm">{PHP.L.Lock}</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explainlock}" href="{FORUMS_POSTS_LOCK_URL}">{PHP.L.Lock}</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_STICKY_URL}" title="{PHP.L.forums_explainsticky}" class="btn btn-default btn-sm">{PHP.L.forums_makesticky}</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explainsticky}" href="{FORUMS_POSTS_STICKY_URL}">{PHP.L.forums_makesticky}</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_ANNOUNCE_URL}" title="{PHP.L.forums_explainannounce}" class="btn btn-default btn-sm">{PHP.L.forums_announcement}</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explainannounce}" href="{FORUMS_POSTS_ANNOUNCE_URL}">{PHP.L.forums_announcement}</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_PRIVATE_URL}" title="{PHP.L.forums_explainprivate}" class="btn btn-default btn-sm">{PHP.L.forums_private} (#)</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explainprivate}" href="{FORUMS_POSTS_PRIVATE_URL}">{PHP.L.forums_private} (#)</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_CLEAR_URL}" title="{PHP.L.forums_explaindefault}" class="btn btn-default btn-sm">{PHP.L.Default}</a>
+              <a class="btn btn-default btn-sm" title="{PHP.L.forums_explaindefault}" href="{FORUMS_POSTS_CLEAR_URL}">{PHP.L.Default}</a>
             </li>
             <li>
-              <a href="{FORUMS_POSTS_DELETE_URL}" title="{PHP.L.forums_explaindelete}" class="btn btn-danger btn-sm confirmLink">{PHP.L.Delete}</a>
+              <a class="btn btn-danger btn-sm confirmLink" title="{PHP.L.forums_explaindelete}" href="{FORUMS_POSTS_DELETE_URL}">{PHP.L.Delete}</a>
             </li>
           </ul>
           <ul class="list-inline">
@@ -84,7 +84,7 @@
             <td class="forums-post">
               <ul class="list-inline small">
                 <li>
-                  <a name="{FORUMS_POSTS_ROW_ID}" id="{FORUMS_POSTS_ROW_POSTID}" href="{FORUMS_POSTS_ROW_IDURL}" rel="nofollow">#{FORUMS_POSTS_ROW_ORDER}</a>
+                  <a id="{FORUMS_POSTS_ROW_POSTID}" name="{FORUMS_POSTS_ROW_ID}" href="{FORUMS_POSTS_ROW_IDURL}" rel="nofollow">#{FORUMS_POSTS_ROW_ORDER}</a>
                 </li>
                 <li>{FORUMS_POSTS_ROW_CREATION}</li>
                 <!-- IF {FORUMS_POSTS_ROW_POSTERIP} -->
@@ -136,7 +136,7 @@
         {FORUMS_POSTS_NEWPOST_TEXT}
         {FORUMS_POSTS_NEWPOST_MYPFS}
         <center>
-          <button type="submit" class="btn btn-primary">{PHP.L.Reply}</button>
+          <button class="btn btn-primary" type="submit">{PHP.L.Reply}</button>
         </center>
       </form>
       <!-- END: FORUMS_POSTS_NEWPOST -->

@@ -26,7 +26,7 @@
         <tfoot>
           <tr>
             <td colspan="4">
-              <a href="{PHP|cot_url('recentitems', 'mode=pages')}" class="pull-right">{PHP.L.Viewall}</a>
+              <a class="pull-right" href="{PHP|cot_url('recentitems', 'mode=pages')}">{PHP.L.Viewall}</a>
             </td>
           </tr>
         </tfoot>

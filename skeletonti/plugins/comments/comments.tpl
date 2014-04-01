@@ -10,15 +10,15 @@
           <div class="col-md-4">
             <div class="form-group">
               <label>{COMMENTS_POSTER_TITLE}:</label>
-              <input class="form-control" value="{COMMENTS_POSTER}" disabled>
+              <input class="form-control" value="{COMMENTS_POSTER}">
             </div>
             <div class="form-group">
               <label>{COMMENTS_IP_TITLE}:</label>
-              <input class="form-control" value="{COMMENTS_IP}" disabled>
+              <input class="form-control" value="{COMMENTS_IP}">
             </div>
             <div class="form-group">
               <label>{COMMENTS_DATE_TITLE}:</label>
-              <input class="form-control" value="{COMMENTS_DATE}" disabled>
+              <input class="form-control" value="{COMMENTS_DATE}">
             </div>
           </div>
           <div class="col-md-8">
@@ -38,14 +38,14 @@
 <!-- BEGIN: COMMENTS -->
       <a name="comments"></a>
       <div style="display: {COMMENTS_DISPLAY}">
-        <h3><span class="glyphicon glyphicon-comment"></span> {PHP.L.Comments}</h3>
+        <h3><i class="fa fa-comment-o"></i> {PHP.L.Comments}</h3>
         <!-- BEGIN: COMMENTS_ROW -->
         <div class="media">
           <a class="pull-left" href="{COMMENTS_ROW_AUTHOR_DETAILSLINK}">
             {COMMENTS_ROW_AUTHOR_AVATAR}
           </a>
           <div class="media-body">
-            <h4 id="c{COMMENTS_ROW_ID}" class="media-heading">{COMMENTS_ROW_AUTHOR} <small class="pull-right">{COMMENTS_ROW_DATE}</small></h4>
+            <h4 class="media-heading" id="c{COMMENTS_ROW_ID}">{COMMENTS_ROW_AUTHOR} <small class="pull-right">{COMMENTS_ROW_DATE}</small></h4>
             {COMMENTS_ROW_TEXT}
             <p class="small text-muted">{COMMENTS_ROW_ADMIN}{COMMENTS_ROW_EDIT}</p>
           </div>

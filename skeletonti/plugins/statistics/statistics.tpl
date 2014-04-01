@@ -144,12 +144,12 @@
               </tr>
               <!-- END: ROW_COUNTRY -->
               <tr>
-                <td class="text-left"><span class="glyphicon glyphicon-question-sign"></span></td>
+                <td class="text-left"><i class="fa fa-question-circle"></i></td>
                 <td>{PHP.L.plu_unknown}</td>
                 <td class="text-right">{STATISTICS_UNKNOWN_COUNT}</td>
               </tr>
               <tr>
-                <td colspan="2" class="text-left">{PHP.L.Total}:</td>
+                <td class="text-left" colspan="2">{PHP.L.Total}:</td>
                 <td class="text-right">{STATISTICS_TOTALUSERS}</td>
               </tr>
             </tbody>

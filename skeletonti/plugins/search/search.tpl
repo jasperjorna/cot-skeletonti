@@ -6,12 +6,12 @@
       <form id="search" name="search" action="{PLUGIN_SEARCH_ACTION}" method="get" role="form">
         <div class="row">
           <div class="col-md-6">
-            <input type="hidden" name="e" value="search">
+            <input name="e" type="hidden" value="search">
             <div class="form-group">
               <div class="input-group">
                 {PLUGIN_SEARCH_TEXT}
                 <span class="input-group-btn">
-                  <input type="submit" class="btn btn-primary" value="{PHP.L.Search}">
+                  <input class="btn btn-primary" type="submit" value="{PHP.L.Search}">
                 </span>
               </div>
             </div>
@@ -20,12 +20,12 @@
               <a href="{PHP|cot_url('plug','e=search')}" class="btn btn-default<!-- IF !{PHP.tab} --> active<!-- ENDIF -->">{PHP.L.plu_tabs_all}</a>
               <!-- IF {PHP.cot_plugins_active.page} --><a href="{PHP|cot_url('plug','e=search&amp;tab=pag')}" class="btn btn-default<!-- IF {PHP.tab} == 'pag' --> active<!-- ENDIF -->">{PHP.L.Pages}</a><!-- ENDIF -->
               <!-- IF {PHP.cot_plugins_active.forums} --><a href="{PHP|cot_url('plug','e=search&amp;tab=frm')}" class="btn btn-default<!-- IF {PHP.tab} == 'frm' --> active<!-- ENDIF -->">{PHP.L.Forums}</a><!-- ENDIF -->
-              <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#search-filters">
+              <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#search-filters">
                 {PHP.L.Filter} <b class="caret"></b>
               </button>
             </div>
 
-            <div id="search-filters" class="collapse">
+            <div class="collapse" id="search-filters">
               <div class="panel panel-default">
                 <div class="panel-body">
                   <p><strong>{PHP.L.plu_other_date}:</strong></p>

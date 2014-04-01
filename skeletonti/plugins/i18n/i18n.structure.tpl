@@ -17,14 +17,14 @@
                 <td>
                   <h4>{I18N_CATEGORY_ROW_TITLE}</h4>
                   <em>{I18N_CATEGORY_ROW_DESC}</em>
-                  <input type="hidden" name="{I18N_CATEGORY_ROW_CODE_NAME}" value="{I18N_CATEGORY_ROW_CODE_VALUE}">
+                  <input name="{I18N_CATEGORY_ROW_CODE_NAME}" type="hidden" value="{I18N_CATEGORY_ROW_CODE_VALUE}">
                 </td>
                 <td>
                   <div class="form-group">
-                  <input type="text" name="{I18N_CATEGORY_ROW_ITITLE_NAME}" class="form-control" value="{I18N_CATEGORY_ROW_ITITLE_VALUE}" maxlength="128" size="64">
+                  <input class="form-control" type="text" name="{I18N_CATEGORY_ROW_ITITLE_NAME}" value="{I18N_CATEGORY_ROW_ITITLE_VALUE}" maxlength="128" size="64">
                   </div>
                   <div class="form-group">
-                    <textarea name="{I18N_CATEGORY_ROW_IDESC_NAME}" class="form-control" rows="4" cols="64">{I18N_CATEGORY_ROW_IDESC_VALUE}</textarea>
+                    <textarea class="form-control" name="{I18N_CATEGORY_ROW_IDESC_NAME}" rows="4" cols="64">{I18N_CATEGORY_ROW_IDESC_VALUE}</textarea>
                   </div>
                 </td>
               </tr>

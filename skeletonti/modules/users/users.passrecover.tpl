@@ -17,10 +17,10 @@
           <div class="col-md-4">
             <div class="form-group">
               <label>{PHP.L.pasrec_youremail}</label>
-              <input type="email" name="email" class="form-control" value="" size="20" maxlength="64">
+              <input class="form-control" type="email" name="email" value="" size="20" maxlength="64">
             </div>
             <div class="form-group">
-              <input type="submit" class="btn btn-primary" value="{PHP.L.pasrec_request}">
+              <input class="btn btn-primary" type="submit" value="{PHP.L.pasrec_request}">
             </div>
           </div>
         </div>

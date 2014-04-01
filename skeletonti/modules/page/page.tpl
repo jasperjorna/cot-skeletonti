@@ -3,8 +3,8 @@
         <h1>
           {PAGE_SHORTTITLE}
           <!-- IF {PHP.usr.isadmin} -->
-          <a href="{PAGE_ADMIN_EDIT_URL}" class="small pull-right">
-            <span class="glyphicon glyphicon-edit"></span>
+          <a class="small pull-right" href="{PAGE_ADMIN_EDIT_URL}">
+            <i class="fa fa-pencil-square-o"></i>
           </a>
           <!-- ENDIF -->
         </h1>
@@ -57,7 +57,7 @@
               <ul class="list-inline tag_cloud">
                 <!-- BEGIN: PAGE_TAGS_ROW -->
                 <li>
-                  <a href="{PAGE_TAGS_ROW_URL}" title="{PAGE_TAGS_ROW_TAG}" rel="tag">{PAGE_TAGS_ROW_TAG}</a>
+                  <a title="{PAGE_TAGS_ROW_TAG}" rel="tag" href="{PAGE_TAGS_ROW_URL}">{PAGE_TAGS_ROW_TAG}</a>
                 </li>
                 <!-- END: PAGE_TAGS_ROW -->
               </ul>
@@ -74,10 +74,10 @@
               <!-- ENDIF -->
 
               <!-- BEGIN: PAGE_ADMIN -->
-              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#admin-page-options">
+              <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#admin-page-options">
                 {PHP.L.Administration} <b class="caret"></b>
               </button>
-              <div id="admin-page-options" class="collapse">
+              <div class="collapse" id="admin-page-options">
                 <ul class="list-unstyled">
                   <!-- IF {PHP.usr.isadmin} -->
                   <li><a href="{PHP|cot_url('admin')}">{PHP.L.Adminpanel}</a></li>

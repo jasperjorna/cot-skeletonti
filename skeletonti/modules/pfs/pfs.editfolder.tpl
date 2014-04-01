@@ -14,7 +14,7 @@
       {PFS_HEADER_JAVASCRIPT}
       //]]>
     </script>
-    <link href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css">
   </head>
   <body>
   <!-- END: STANDALONE_HEADER -->
@@ -52,7 +52,7 @@
         <label>{PHP.L.pfs_isgallery}</label>
         <p>{PFF_ISGALLERY}</p>
       </div>
-      <button type="submit" class="btn btn-primary">{PHP.L.Update}</button>
+      <button class="btn btn-primary" type="submit">{PHP.L.Update}</button>
     </form>
   <!-- BEGIN: STANDALONE_FOOTER -->
   </body>
