@@ -52,22 +52,20 @@
               <div class="panel-collapse collapse" id="pa-options">
                 <div class="panel-body">
                   <div class="row">
+                    <!-- BEGIN: TAGS -->
                     <div class="col-md-6">
-                      <!-- BEGIN: TAGS -->
                       <div class="form-group">
                         <label>{PAGEEDIT_TOP_TAGS}:</label>
                         {PAGEEDIT_FORM_TAGS} <span class="text-muted">({PAGEEDIT_TOP_TAGS_HINT})</span>
                       </div>
-                      <!-- END: TAGS -->
                     </div>
+                    <!-- END: TAGS -->
                     <div class="col-md-6">
                       <div class="form-group">
                         <label>{PHP.L.Parser}:</label>
                         {PAGEEDIT_FORM_PARSER}
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
                         <label>{PHP.L.Keywords}:</label>
