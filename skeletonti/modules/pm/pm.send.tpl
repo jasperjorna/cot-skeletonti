@@ -18,7 +18,7 @@
           </a>
         </div>
 
-        {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+        {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
 
         <form id="mewmessage" action="{PMSEND_FORM_SEND}" method="post" name="newmessage" role="form">
           <div class="row">

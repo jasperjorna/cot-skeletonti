@@ -3,7 +3,7 @@
         <h1>{FORUMS_NEWTOPIC_PAGETITLE}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{FORUMS_NEWTOPIC_SEND}" method="post" name="newtopic" role="form">
         <div class="row">
           <div class="col-md-6">

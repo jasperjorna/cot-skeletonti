@@ -4,7 +4,7 @@
         <!-- IF {FORUMS_EDITPOST_SUBTITLE} --><p>{FORUMS_EDITPOST_SUBTITLE}</p><!-- ENDIF -->
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{FORUMS_EDITPOST_SEND}" method="post" name="editpost" role="form">
         <!-- BEGIN: FORUMS_EDITPOST_FIRSTPOST -->
         <div class="row">

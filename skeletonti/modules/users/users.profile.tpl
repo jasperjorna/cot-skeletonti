@@ -3,7 +3,7 @@
         <h1>{USERS_PROFILE_TITLE}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{USERS_PROFILE_FORM_SEND}" method="post" enctype="multipart/form-data" name="profile" role="form">
         <input name="userid" type="hidden" value="{USERS_PROFILE_ID}">
         <div class="table-responsive">

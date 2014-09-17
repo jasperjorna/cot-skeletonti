@@ -3,7 +3,7 @@
         <h1>{I18N_TITLE}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{I18N_ACTION}" method="post" role="form">
         <table class="table table-striped">
           <thead>

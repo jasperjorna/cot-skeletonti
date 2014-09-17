@@ -3,7 +3,7 @@
         <h1>{USERS_EDIT_TITLE}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{USERS_EDIT_SEND}" method="post" name="useredit" enctype="multipart/form-data" role="form">
         <input name="id" type="hidden" value="{USERS_EDIT_ID}">
         <div class="table-responsive">
