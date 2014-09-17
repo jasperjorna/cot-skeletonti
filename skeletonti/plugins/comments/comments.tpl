@@ -3,7 +3,7 @@
         <h1>{PHP.L.Editcomment}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <!-- BEGIN: COMMENTS_FORM_EDIT -->
       <form id="comments" name="comments" action="{COMMENTS_FORM_POST}" method="post" role="form">
         <div class="row">
@@ -61,7 +61,7 @@
 
         <!-- BEGIN: COMMENTS_NEWCOMMENT -->
         <h4>{PHP.L.Newcomment}</h4>
-        {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+        {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
         <form action="{COMMENTS_FORM_SEND}" method="post" name="newcomment" role="form">
           <!-- IF {PHP.usr.id} == 0 -->
           <div class="row">

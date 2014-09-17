@@ -3,7 +3,7 @@
         <h1>{PAGEADD_PAGETITLE}</h1>
       </div>
 
-      {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+      {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{PAGEADD_FORM_SEND}" enctype="multipart/form-data" method="post" name="pageform" role="form">
         <div class="row">
           <div class="col-md-6">

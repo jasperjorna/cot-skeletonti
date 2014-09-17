@@ -18,7 +18,7 @@
         </div>
 
         <div class="col-md-6 col-md-offset-2">
-          {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+          {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
           <!-- BEGIN: FORM -->
           <form action="{CONTACT_FORM_SEND}" method="post" name="contact_form" role="form">
             <div class="form-group">

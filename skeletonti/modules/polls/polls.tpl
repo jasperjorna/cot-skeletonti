@@ -134,5 +134,5 @@
       <!-- END: POLL_NONE -->
     </table>
     <!-- END: POLLS_VIEWALL -->
-    {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+    {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
 <!-- END: MAIN -->

@@ -5,7 +5,7 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+          {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
           <form id="regform" name="login" action="{USERS_REGISTER_SEND}" method="post" enctype="multipart/form-data" role="form">
             <div class="row">
               <div class="col-md-6">

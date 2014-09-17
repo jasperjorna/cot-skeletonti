@@ -22,7 +22,7 @@
       <h1>{PFS_TITLE}</h1>
       <p>{PFS_SUBTITLE}</p>
     </div>
-    {FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+    {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
     <form id="editfolder" action="{PFS_ACTION}" method="post" role="form">
       <div class="form-group">
         <label>{PHP.L.Date}</label>
