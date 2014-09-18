@@ -7,13 +7,13 @@
         </div>
 
         <div class="btn-group">
-          <a href="{PMSEND_INBOX_URL}" class="btn btn-sm btn-default<!-- IF {PHP.f} == 'inbox' --> active<!-- ENDIF -->">
-            {PHP.L.pm_inbox}
+          <a href="{PMSEND_INBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'inbox' --> active<!-- ENDIF -->">
+            <span class="badge">{PMSEND_INBOX_COUNT}</span>&nbsp;{PHP.L.pm_inbox}
           </a>
-          <a href="{PMSEND_SENTBOX_URL}" class="btn btn-sm btn-default<!-- IF {PHP.f} == 'sentbox' --> active<!-- ENDIF -->">
-            {PHP.L.pm_sentbox}
+          <a href="{PMSEND_SENTBOX_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.f} == 'sentbox' --> active<!-- ENDIF -->">
+            <span class="badge">{PMSEND_SENTBOX_COUNT}</span>&nbsp;{PHP.L.pm_sentbox}
           </a>
-          <a href="{PMSEND_SENDNEWPM_URL}" class="btn btn-sm btn-default<!-- IF {PHP.m} == 'send' --> active<!-- ENDIF -->">
+          <a href="{PMSEND_SENDNEWPM_URL}" class="btn btn-sm btn-primary<!-- IF {PHP.m} == 'send' --> active<!-- ENDIF -->">
             {PHP.L.Sendnew}
           </a>
         </div>
