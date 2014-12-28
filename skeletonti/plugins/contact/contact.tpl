@@ -8,7 +8,7 @@
             <strong>{PHP.cfg.maintitle}</strong><br>
             404, Our Address<br>
             Siena, 1223<br>
-            <span class="glyphicon glyphicon-earphone"></span> (123) 456-7890
+            <i class="fa fa-phone"></i> (123) 456-7890
           </address>
           <address>
             <strong>John Lennon</strong><br>
@@ -49,7 +49,7 @@
               {CONTACT_FORM_VERIFY}
             </div>
             <!-- END: CAPTCHA -->
-            <button type="submit" class="btn btn-primary">{PHP.L.Submit}</button>
+            <button class="btn btn-primary" type="submit">{PHP.L.Submit}</button>
           </form>
           <!-- END: FORM -->
         </div>

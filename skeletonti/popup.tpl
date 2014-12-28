@@ -15,7 +15,7 @@
     }
     //]]>
     </script>
-    <link href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css" rel="stylesheet">
+    <link rel="stylesheet" href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css">
   </head>
   <body>
     {POPUP_BODY}

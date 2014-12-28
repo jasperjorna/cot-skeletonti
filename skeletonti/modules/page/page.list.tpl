@@ -15,7 +15,7 @@
               <h3 class="media-heading">
                 <a href="{LIST_ROW_URL}">{LIST_ROW_SHORTTITLE}</a>
                 <!-- IF {PHP.usr.isadmin} -->
-                <a href="{LIST_ROW_ADMIN_EDIT_URL}" class="small pull-right">
+                <a class="small pull-right" href="{LIST_ROW_ADMIN_EDIT_URL}">
                   <i class="fa fa-pencil-square-o"></i>
                 </a>
                 <!-- ENDIF -->
@@ -36,7 +36,7 @@
           <h4>{PHP.L.Categories}</h4>
           <div class="list-group pagecats">
             <!-- BEGIN: LIST_ROWCAT -->
-            <a href="{LIST_ROWCAT_URL}" class="list-group-item">
+            <a class="list-group-item" href="{LIST_ROWCAT_URL}">
               <span class="badge">{LIST_ROWCAT_COUNT}</span>
               <h4 class="list-group-item-heading">{LIST_ROWCAT_TITLE}</h4>
               <!-- IF {LIST_ROWCAT_DESC} -->
@@ -55,10 +55,10 @@
 
           <!-- IF {PHP.usr.auth_write} -->
           <div class="clearfix"></div>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#admin-page-options">
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#admin-page-options">
             {PHP.L.Adminpanel} <b class="caret"></b>
           </button>
-          <div id="admin-page-options" class="collapse">
+          <div class="collapse" id="admin-page-options">
             <ul class="list-unstyled">
               <!-- IF {PHP.usr.isadmin} -->
               <li><a href="{PHP|cot_url('admin')}">{PHP.L.Adminpanel}</a></li>

@@ -10,8 +10,8 @@
       </div>
 
       <div class="btn-group btn-group-sm pull-right">
-        <a href="{PHP.mode|cot_url('plug','e=recentitems$this')}" class="btn btn-default" rel="nofollow">{PHP.L.Today}</a>
-        <!-- IF {PHP.usr.id} > 0 --><a href="{PHP.mode|cot_url('plug','e=recentitems$this')}" class="btn btn-default" rel="nofollow">{PHP.L.recentitems_fromlastvisit}</a><!-- ENDIF -->
+        <a class="btn btn-default" rel="nofollow" href="{PHP.mode|cot_url('plug','e=recentitems$this')}">{PHP.L.Today}</a>
+        <!-- IF {PHP.usr.id} > 0 --><a class="btn btn-default" rel="nofollow" href="{PHP.mode|cot_url('plug','e=recentitems$this')}">{PHP.L.recentitems_fromlastvisit}</a><!-- ENDIF -->
         <a href="{PHP.mode|cot_url('plug','e=recentitems&amp;days=1$this')}" class="btn btn-default<!-- IF {PHP._GET.days} == 1 --> active<!-- ENDIF -->" rel="nofollow">{PHP.L.recentitems_1day}</a>
         <a href="{PHP.mode|cot_url('plug','e=recentitems&amp;days=2$this')}" class="btn btn-default<!-- IF {PHP._GET.days} == 2 --> active<!-- ENDIF -->" rel="nofollow">{PHP.L.recentitems_2days}</a>
         <a href="{PHP.mode|cot_url('plug','e=recentitems&amp;days=3$this')}" class="btn btn-default<!-- IF {PHP._GET.days} == 3 --> active<!-- ENDIF -->" rel="nofollow">{PHP.L.recentitems_3days}</a>

@@ -5,7 +5,7 @@
 
       {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{USERS_PROFILE_FORM_SEND}" method="post" enctype="multipart/form-data" name="profile" role="form">
-        <input type="hidden" name="userid" value="{USERS_PROFILE_ID}">
+        <input name="userid" type="hidden" value="{USERS_PROFILE_ID}">
         <div class="table-responsive">
           <table class="table table-striped">
             <tbody>
@@ -27,10 +27,10 @@
                 <td>
                   <p>{USERS_PROFILE_EMAIL}</p>
                   <!-- BEGIN: USERS_PROFILE_EMAILPROTECTION -->
-                  <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" data-target="#changeEmail">
+                  <button class="btn btn-sm btn-info" type="button" data-toggle="collapse" data-target="#changeEmail">
                     {PHP.L.users_changeemail}
                   </button>
-                  <div id="changeEmail" class="collapse">
+                  <div class="collapse" id="changeEmail">
                     <label>{PHP.themelang.usersprofile_Emailpassword}:</label>
                     <div class="row">
                       <div class="col-md-6">{USERS_PROFILE_EMAILPASS}</div>

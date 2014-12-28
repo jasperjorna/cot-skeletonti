@@ -43,7 +43,7 @@
                 </div>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">{PHP.L.Submit}</button>
+            <button class="btn btn-primary" type="submit">{PHP.L.Submit}</button>
           </form>
         </div>
       </div>

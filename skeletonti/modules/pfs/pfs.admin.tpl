@@ -7,9 +7,9 @@
       </div>
       <!-- ENDIF -->
       <div class="btn-group">
-        <a href="{ADMIN_PFS_URL_CONFIG}" class="btn btn-sm btn-default">{PHP.L.Configuration}</a>
-        <a href="{ADMIN_PFS_URL_ALLPFS}" class="btn btn-sm btn-default">{PHP.L.adm_allpfs}</a>
-        <a href="{ADMIN_PFS_URL_SFS}" class="btn btn-sm btn-default">{PHP.L.SFS}</a>
+        <a class="btn btn-sm btn-default" href="{ADMIN_PFS_URL_CONFIG}">{PHP.L.Configuration}</a>
+        <a class="btn btn-sm btn-default" href="{ADMIN_PFS_URL_ALLPFS}">{PHP.L.adm_allpfs}</a>
+        <a class="btn btn-sm btn-default" href="{ADMIN_PFS_URL_SFS}">{PHP.L.SFS}</a>
       </div>
 
       <h3>{PHP.L.adm_gd}:</h3>

@@ -43,25 +43,23 @@
                   </a>
                 </h4>
               </div>
-              <div id="pa-options" class="panel-collapse collapse">
+              <div class="panel-collapse collapse" id="pa-options">
                 <div class="panel-body">
                   <div class="row">
+                    <!-- BEGIN: TAGS -->
                     <div class="col-md-6">
-                      <!-- BEGIN: TAGS -->
                       <div class="form-group">
                         <label>{PAGEADD_TOP_TAGS}:</label>
                         {PAGEADD_FORM_TAGS} <span class="text-muted">({PAGEADD_TOP_TAGS_HINT})</span>
                       </div>
-                      <!-- END: TAGS -->
                     </div>
+                    <!-- END: TAGS -->
                     <div class="col-md-6">
                       <div class="form-group">
                         <label>{PHP.L.Parser}:</label>
                         {PAGEADD_FORM_PARSER}
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
                         <label>{PHP.L.Keywords}:</label>
@@ -80,7 +78,7 @@
                   </a>
                 </h4>
               </div>
-              <div id="pa-beginexpire" class="panel-collapse collapse">
+              <div class="panel-collapse collapse" id="pa-beginexpire">
                 <div class="panel-body">
                   <div class="form-group">
                     <label>{PHP.L.Begin}:</label>
@@ -101,7 +99,7 @@
                   </a>
                 </h4>
               </div>
-              <div id="pa-download" class="panel-collapse collapse">
+              <div class="panel-collapse collapse" id="pa-download">
                 <div class="panel-body">
                   <div class="row">
                     <div class="col-md-6">
@@ -139,10 +137,10 @@
         </div>
         <div class="form-group">
           <!-- IF {PHP.usr_can_publish} -->
-          <button type="submit" name="rpagestate" value="0" class="btn btn-success">{PHP.L.Publish}</button>
+          <button class="btn btn-success" type="submit" name="rpagestate" value="0">{PHP.L.Publish}</button>
           <!-- ENDIF -->
-          <button type="submit" name="rpagestate" value="2" class="btn btn-default">{PHP.L.Saveasdraft}</button>
-          <button type="submit" name="rpagestate" value="1" class="btn btn-default">{PHP.L.Submitforapproval}</button>
+          <button class="btn btn-default" type="submit" name="rpagestate" value="2">{PHP.L.Saveasdraft}</button>
+          <button class="btn btn-default" type="submit" name="rpagestate" value="1">{PHP.L.Submitforapproval}</button>
         </div>
       </form>
 <!-- END: MAIN -->

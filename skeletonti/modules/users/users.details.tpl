@@ -3,8 +3,8 @@
         <h1>
           {USERS_DETAILS_NAME}
           <!-- BEGIN: USERS_DETAILS_ADMIN -->
-          <a href="{USERS_DETAILS_ADMIN_EDIT_URL}" class="small">
-            <span class="glyphicon glyphicon-edit"></span>
+          <a class="small" href="{USERS_DETAILS_ADMIN_EDIT_URL}">
+            <i class="fa fa-pencil-square-o"></i>
           </a>
           <!-- END: USERS_DETAILS_ADMIN -->
           <!-- IF {USERS_DETAILS_ONLINE} == 1 -->

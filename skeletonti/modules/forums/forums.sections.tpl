@@ -3,8 +3,8 @@
         <h1>{FORUMS_SECTIONS_PAGETITLE}</h1>
       </div>
       <div class="btn-group pull-right">
-        <a href="{PHP|cot_url('forums', 'c=fold', '#top')}" class="btn btn-sm btn-default" rel="nofollow">{PHP.L.forums_foldall}</a>
-        <a href="{PHP|cot_url('forums', 'c=unfold', '#top')}" class="btn btn-sm btn-default" rel="nofollow">{PHP.L.forums_unfoldall}</a>
+        <a class="btn btn-sm btn-default" rel="nofollow" href="{PHP|cot_url('forums', 'c=fold', '#top')}">{PHP.L.forums_foldall}</a>
+        <a class="btn btn-sm btn-default" rel="nofollow" href="{PHP|cot_url('forums', 'c=unfold', '#top')}">{PHP.L.forums_unfoldall}</a>
       </div>
       <!-- BEGIN: FORUMS_SECTIONS -->
       <!-- BEGIN: CAT -->
@@ -14,7 +14,7 @@
             <tr>
               <th><center>{PHP.L.Activity}</center></th>
               <th>
-                <a href="{FORUMS_SECTIONS_ROW_SECTIONSURL}" onclick="return toggleblock('blk_{FORUMS_SECTIONS_ROW_CAT}')">{FORUMS_SECTIONS_ROW_TITLE}</a>
+                <a onclick="return toggleblock('blk_{FORUMS_SECTIONS_ROW_CAT}')" href="{FORUMS_SECTIONS_ROW_SECTIONSURL}">{FORUMS_SECTIONS_ROW_TITLE}</a>
               </th>
               <th>{PHP.L.Lastpost}</th>
               <th>{PHP.L.forums_topics}</th>
@@ -56,10 +56,10 @@
       <center>
         <ul class="list-inline">
           <li>
-            <a href="{PHP|cot_url('plug','e=search&amp;tab=frm')}" class="btn btn-default">{PHP.L.forums_searchinforums}</a>
+            <a class="btn btn-default" href="{PHP|cot_url('plug','e=search&amp;tab=frm')}">{PHP.L.forums_searchinforums}</a>
           </li>
           <li>
-            <a href="{PHP|cot_url('forums','n=markall')}" rel="nofollow" class="btn btn-default">{PHP.L.forums_markasread}</a>
+            <a class="btn btn-default" rel="nofollow" href="{PHP|cot_url('forums','n=markall')}">{PHP.L.forums_markasread}</a>
           </li>
         </ul>
       </center>

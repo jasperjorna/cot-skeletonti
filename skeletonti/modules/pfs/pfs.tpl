@@ -14,7 +14,7 @@
       {PFS_HEADER_JAVASCRIPT}
       //]]>
     </script>
-    <link href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{PHP.themes_dir}/{PHP.usr.theme}/css/{PHP.scheme}.css">
   </head>
   <body>
   <!-- END: STANDALONE_HEADER -->
@@ -63,8 +63,8 @@
           <td>{PFF_ROW_UPDATED}</td>
           <td>
             <div class="btn-group">
-              <a href="{PFF_ROW_EDIT_URL}" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-edit"></span> {PHP.L.Edit}</a>
-              <a href="{PFF_ROW_DELETE_URL}" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></a>
+              <a class="btn btn-sm btn-default" href="{PFF_ROW_EDIT_URL}"><i class="fa fa-pencil-square-o"></i> {PHP.L.Edit}</a>
+              <a class="btn btn-sm btn-danger" href="{PFF_ROW_DELETE_URL}"><i class="fa fa-times-circle"></i></a>
             </div>
           </td>
         </tr>
@@ -105,11 +105,11 @@
           <td>{PFS_ROW_SIZE}</td>
           <td>{PFS_ROW_DATE}</td>
           <td>
-            <input type="checkbox" name="folderid[{PFS_ROW_ID}]">
+            <input name="folderid[{PFS_ROW_ID}]" type="checkbox">
             <div class="btn-group">
               {PFS_ROW_INSERT}
-              <a href="{PFS_ROW_EDIT_URL}" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-edit"></span> {PHP.L.Edit}</a>
-              <a href="{PFS_ROW_DELETE_URL}" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></a>
+              <a class="btn btn-sm btn-default" href="{PFS_ROW_EDIT_URL}"><i class="fa fa-pencil-square-o"></i> {PHP.L.Edit}</a>
+              <a class="btn btn-sm btn-danger" href="{PFS_ROW_DELETE_URL}"><i class="fa fa-times-circle"></i></a>
             </div>
           </td>
         </tr>
@@ -138,7 +138,7 @@
       <div class="panel-body">
         <!-- BEGIN: PFS_UPLOAD_FORM -->
         <form enctype="multipart/form-data" action="{PFS_UPLOAD_FORM_ACTION}" method="post" role="form">
-          <input type="hidden" name="MAX_FILE_SIZE" value="{PFS_UPLOAD_FORM_MAX_SIZE}">
+          <input name="MAX_FILE_SIZE" type="hidden" value="{PFS_UPLOAD_FORM_MAX_SIZE}">
           <div class="row">
             <div class="col-md-4">
               <div class="form-group">
@@ -154,19 +154,19 @@
                 <label>{PHP.L.Description}</label>
                 <div class="input-group">
                   <span class="input-group-addon">{PFS_UPLOAD_FORM_ROW_NUM}</span>
-                  <input type="text" name="ndesc[{PFS_UPLOAD_FORM_ROW_ID}]" class="form-control" value="" size="40" maxlength="255">
+                  <input class="form-control" type="text" name="ndesc[{PFS_UPLOAD_FORM_ROW_ID}]" value="" size="40" maxlength="255">
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label>{PHP.L.File}</label>
-                <input type="file" name="userfile[{PFS_UPLOAD_FORM_ROW_ID}]" size="24">
+                <input name="userfile[{PFS_UPLOAD_FORM_ROW_ID}]" type="file" size="24">
               </div>
             </div>
           </div>
           <!-- END: PFS_UPLOAD_FORM_ROW -->
-          <button type="submit" class="btn btn-primary">{PHP.L.Upload}</button>
+          <button class="btn btn-primary" type="submit">{PHP.L.Upload}</button>
         </form>
         <!-- END: PFS_UPLOAD_FORM -->
       </div>
@@ -181,13 +181,13 @@
             <div class="col-md-4">
               <div class="form-group">
                 <label class="control-label">{PHP.L.Title}</label>
-                <input type="text" name="ntitle" class="form-control" value="" size="32" maxlength="64">
+                <input class="form-control" type="text" name="ntitle" value="" size="32" maxlength="64">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label>{PHP.L.Description}</label>
-                <input type="text" name="ndesc" class="form-control" value="" size="32" maxlength="255">
+                <input class="form-control" type="text" name="ndesc" value="" size="32" maxlength="255">
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@
               <label>{PHP.L.pfs_ispublic}</label>
               <div class="form-group">
                 <label class="radio-inline">
-                  <input type="radio" name="nispublic" value="1">{PHP.L.Yes}
+                  <input name="nispublic" type="radio" value="1">{PHP.L.Yes}
                 </label>
                 <label class="radio-inline">
                   <input type="radio" name="nispublic" value="0" checked="checked">{PHP.L.No}
@@ -219,7 +219,7 @@
               <label>{PHP.L.pfs_isgallery}</label>
               <div class="form-group">
                 <label class="radio-inline">
-                  <input type="radio" name="nisgallery" value="1">{PHP.L.Yes}
+                  <input name="nisgallery" type="radio" value="1">{PHP.L.Yes}
                 </label>
                 <label class="radio-inline">
                   <input type="radio" name="nisgallery" value="0" checked="checked">{PHP.L.No}
@@ -227,7 +227,7 @@
               </div>
             </div>
           </div>
-          <input type="submit" class="btn btn-primary" value="{PHP.L.Create}">
+          <input class="btn btn-primary" type="submit" value="{PHP.L.Create}">
         </form>
       </div>
     </div>
@@ -242,7 +242,7 @@
             </a>
           </h4>
         </div>
-        <div id="pfs-allowed" class="panel-collapse collapse">
+        <div class="panel-collapse collapse" id="pfs-allowed">
           <div class="panel-body">
             <table class="table table-borderless">
               <!-- BEGIN: ALLOWED_ROW -->

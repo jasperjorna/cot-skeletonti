@@ -20,7 +20,7 @@
 
         {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
 
-        <form action="{PMSEND_FORM_SEND}" method="post" name="newmessage" id="mewmessage" role="form">
+        <form id="mewmessage" action="{PMSEND_FORM_SEND}" method="post" name="newmessage" role="form">
           <div class="row">
             <div class="col-md-6">
               <!-- BEGIN: PMSEND_USERLIST -->
@@ -41,7 +41,7 @@
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" name="fromstate" value="3">{PHP.L.pm_notmovetosentbox}
+              <input name="fromstate" type="checkbox" value="3">{PHP.L.pm_notmovetosentbox}
             </label>
           </div>
           <center><button type="submit" class="btn btn-primary">{PHP.L.Submit}</button></center>

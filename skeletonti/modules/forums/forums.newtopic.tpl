@@ -52,7 +52,7 @@
                   </a>
                 </h4>
               </div>
-              <div id="forum-add-poll" class="panel-collapse collapse">
+              <div class="panel-collapse collapse" id="forum-add-poll">
                 <div class="panel-body">
                   <script src="{PHP.cfg.themes_dir}/{PHP.usr.theme}/js/polls.js"></script>
                   <script>
@@ -77,8 +77,8 @@
                             <div class="input-group">
                               {EDIT_POLL_OPTION_TEXT}
                               <span class="input-group-btn">
-                                <button name="delpollopt" type="button" class="btn btn-danger" disabled>
-                                  <span class="glyphicon glyphicon-remove-circle"></span>
+                                <button class="btn btn-danger" name="delpollopt" type="button">
+                                  <i class="fa fa-times-circle"></i>
                                 </button>
                               </span>
                             </div>
@@ -94,7 +94,7 @@
                     </label>
                   </div>
                   <div class="form-group">
-                    <button name="addpollopt" type="button" class="btn btn-default">{PHP.L.Add}</button>
+                    <button class="btn btn-default" name="addpollopt" type="button">{PHP.L.Add}</button>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@
           {FORUMS_NEWTOPIC_TEXT}
         </div>
         <center>
-          <button type="submit" class="btn btn-primary">{PHP.L.Submit}</button>
+          <button class="btn btn-primary" type="submit">{PHP.L.Submit}</button>
         </center>
       </form>
 <!-- END: MAIN -->

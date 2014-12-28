@@ -29,7 +29,7 @@
               </div>
             </div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary" name="rlogin" value="0">{PHP.L.Login}</button>
+              <button class="btn btn-primary" type="submit" name="rlogin" value="0">{PHP.L.Login}</button>
             </div>
           </form>
           <a href="{PHP|cot_url('users', 'm=passrecover')}">{PHP.L.users_lostpass}</a>

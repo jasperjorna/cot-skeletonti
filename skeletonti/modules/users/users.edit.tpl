@@ -5,7 +5,7 @@
 
       {FILE "{PHP.cfg.themes_dir}/{PHP.usr.theme}/warnings.tpl"}
       <form action="{USERS_EDIT_SEND}" method="post" name="useredit" enctype="multipart/form-data" role="form">
-        <input type="hidden" name="id" value="{USERS_EDIT_ID}">
+        <input name="id" type="hidden" value="{USERS_EDIT_ID}">
         <div class="table-responsive">
           <table class="table table-striped">
             <tbody>
