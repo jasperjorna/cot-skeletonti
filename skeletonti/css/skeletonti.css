@@ -68,3 +68,8 @@ li.list-group-item.active a {
 .errortpl {
   margin-top: 50px;
 }
+
+/* Sort arrows */
+a.arrow {
+  text-decoration: none;
+}
