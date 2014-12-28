@@ -26,6 +26,11 @@ $R['input_select_rpagebegin']  = '<select class="form-control" name="{$name}">{$
 $R['input_select_rpageexpire'] = '<select class="form-control" name="{$name}">{$options}</select>{$error}';
 $R['input_select_rpagefile']   = '<select class="form-control" name="{$name}">{$options}</select>{$error}';
 
+$R['icon_down'] = '<i class="fa fa-arrow-down"></i> ';
+$R['icon_up'] = '<i class="fa fa-arrow-up"></i> ';
+
+$R['users_link_sort'] = '<a href="{$asc_url}" class="arrow" rel="nofollow">'.$R['icon_down'].'</a> <a href="{$desc_url}" class="arrow" rel="nofollow">'.$R['icon_up'].'</a> {$text}';
+
 $R['input_date'] = '<div class="row">
     <div class="col-sm-2">{$day}</div>
     <div class="col-sm-4">{$month}</div>
